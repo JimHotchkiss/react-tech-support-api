@@ -1,0 +1,3 @@
+- This is the api for the tech-support app.
+- We'll be using React/Redux for the front-end, and we'll be using Rail as the api
+-
