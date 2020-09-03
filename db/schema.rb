@@ -24,10 +24,9 @@ ActiveRecord::Schema.define(version: 2020_09_03_103853) do
   create_table "settings", force: :cascade do |t|
     t.float "rating"
     t.string "specialty"
-    t.bigint "rep_id"
+    t.string "rep_email"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["rep_id"], name: "index_settings_on_rep_id"
   end
 
   create_table "users", force: :cascade do |t|
@@ -38,5 +37,4 @@ ActiveRecord::Schema.define(version: 2020_09_03_103853) do
     t.datetime "updated_at", null: false
   end
 
-  add_foreign_key "settings", "reps"
 end

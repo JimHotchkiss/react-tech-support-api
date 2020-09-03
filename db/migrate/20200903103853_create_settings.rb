@@ -3,8 +3,7 @@ class CreateSettings < ActiveRecord::Migration[5.2]
     create_table :settings do |t|
       t.float :rating
       t.string :specialty
-      t.references :rep, foreign_key: true
-
+      t.string :rep_email
       t.timestamps
     end
   end

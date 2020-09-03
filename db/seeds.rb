@@ -6,21 +6,55 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-users = User.create([{
-  username: 'User One',
-  email: 'userOne@email.com',
-  password: 'password'
+settings = Setting.create([{
+  specialty: 'laparoscopy',
+  rep_email: 'james.hotchkiss@stryker.com',
+  rating: 3.5
 
 },
 {
-  username: 'User Two',
-  email: 'userTwo@email.com',
-  password: 'password'
+  specialty: 'laparoscopy',
+  rep_email: 'james.hotchkiss@stryker.com',
+  rating: 4.6
 },
 {
-  username: 'User Three',
-  email: 'userThree@email.com',
-  password: 'password'
+  specialty: 'laparoscopy',
+  rep_email: 'james.hotchkiss@stryker.com',
+  rating: 1.2
+
+},
+{
+  specialty: 'laparoscopy',
+  rep_email: 'john.doe@stryker.com',
+  rating: 3.9
+
+},
+{
+  specialty: 'laparoscopy',
+  rep_email: 'john.doe@stryker.com',
+  rating: 0.8
+},
+{
+  specialty: 'arthroscopy',
+  rep_email: 'john.doe@stryker.com',
+  rating: 4.1
+
+},
+{
+  specialty: 'ent',
+  rep_email: 'jane.doe@stryker.com',
+  rating: 2.8
+
+},
+{
+  specialty: 'ent',
+  rep_email: 'jane.doe@stryker.com',
+  rating: 4.6
+},
+{
+  specialty: 'hysteroscopy',
+  rep_email: 'jane@stryker.com',
+  rating: 4.9
 
 }
 ])
