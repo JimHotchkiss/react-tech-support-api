@@ -1,6 +1,5 @@
 class Setting < ApplicationRecord
+  require 'pry'
 
-  def average_rating 
-    
-  end  
+ 
 end
